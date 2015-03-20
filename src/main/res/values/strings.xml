@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="extension_name">Sunmoon</string>
+    <string name="sunrise">Today\'s sunrise is at %1$s and the sunset is at %2$s</string>
+    <string name="sunset">Today\'s sunset is at %1$s and tomorrow\'s sunrise is at %2$s</string>
+    <string name="application_name">Dashclock Sunmoon Extension</string>
+    <string name="extension_info">Displays information about the sunrise, sunset and the moon phase.</string>
+    <string name="moonphase">Tonight\'s moon will be a %1$s</string>
+
+</resources>

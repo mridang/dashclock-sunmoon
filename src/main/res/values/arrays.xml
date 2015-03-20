@@ -1,0 +1,14 @@
+<resources>
+
+    <string-array name="phases">
+        <item>new moon</item>
+        <item>waxing crescent</item>
+        <item>first quarter</item>
+        <item>waxing gibbous</item>
+        <item>full moon</item>
+        <item>waning gibbous</item>
+        <item>third quarter</item>
+        <item>waning crescent</item>
+    </string-array>
+
+</resources>

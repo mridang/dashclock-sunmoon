@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+    defaultConfig {
+        applicationId "com.mridang.sunmoon"
+        minSdkVersion 14
+        targetSdkVersion 21
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile files('libs/acra-4.5.0.jar')
+    compile files('libs/dashclock-api-r2.0.jar')
+    compile files('libs/sunrise-1.1.jar')
+    compile files('libs/moonphase-0.1.jar')
+}
